@@ -10,7 +10,7 @@ install by tapping
 
 ```
 $ brew tap mythosil/homebrew-gnuplot
-$ brew install mythosil/gnuplot/gnuplot --with-aquaterm
+$ brew install mythosil/gnuplot/gnuplot
 ```
 
 install via URL
