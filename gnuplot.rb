@@ -1,11 +1,9 @@
 class Gnuplot < Formula
   desc "Command-driven, interactive function plotting (patched for --with-aquaterm)"
   homepage "http://www.gnuplot.info/"
-  url "https://downloads.sourceforge.net/project/gnuplot/gnuplot/5.2.7/gnuplot-5.2.7.tar.gz"
-  version "5.2.7-with-aquaterm"
-  sha256 "97fe503ff3b2e356fe2ae32203fc7fd2cf9cef1f46b60fe46dc501a228b9f4ed"
-
-  bottle :unneeded
+  url "https://downloads.sourceforge.net/project/gnuplot/gnuplot/5.4.2/gnuplot-5.4.2.tar.gz"
+  version "5.4.2-with-aquaterm"
+  sha256 "e57c75e1318133951d32a83bcdc4aff17fed28722c4e71f2305cfc2ae1cae7ba"
 
   depends_on "pkg-config" => :build
   depends_on "gd"
